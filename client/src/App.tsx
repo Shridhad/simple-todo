@@ -156,7 +156,6 @@ function App() {
                   setCreateForm((prev: CreateTodoInput) => ({ ...prev, title: e.target.value }))
                 }
                 required
-                className="text-lg"
               />
             </div>
             <div>
@@ -169,7 +168,7 @@ function App() {
                     description: e.target.value || null
                   }))
                 }
-                className="min-h-[80px]"
+                className="min-h-[40px]"
               />
             </div>
             <div className="flex gap-4">
@@ -312,7 +311,7 @@ function App() {
                                   description: e.target.value || null
                                 }))
                               }
-                              className="min-h-[80px]"
+                              className="min-h-[40px]"
                             />
                           </div>
                           <div>
